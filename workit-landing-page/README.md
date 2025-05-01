@@ -10,7 +10,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 ### Links
 
-- Live Site URL: [FAQ Workit landing page]()
+- Live Site URL: [FAQ Workit landing page](https://pylopes.github.io/frontend-mentor/workit-landing-page)
 
 ### Built with
 
