@@ -6,11 +6,11 @@ This is a solution to the [Design preview for the QR code component coding chall
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.PNG)
 
 ### Links
 
-- Live Site URL: [QR code component]()
+- Live Site URL: [QR code component](https://pylopes.github.io/frontend-mentor/qr-code-component)
 
 ### Built with
 
