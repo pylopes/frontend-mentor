@@ -6,11 +6,11 @@ This is a solution to the [Results summary component](https://www.frontendmentor
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.PNG)
 
 ### Links
 
-- Live Site URL: [Results summary component]()
+- Live Site URL: [Results summary component](https://pylopes.github.io/frontend-mentor/results-summary-component)
 
 ### Built with
 
