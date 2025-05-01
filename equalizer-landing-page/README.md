@@ -10,7 +10,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Equalizer landing page]()
+- Live Site URL: [Equalizer landing page](https://pylopes.github.io/frontend-mentor/equalizer-landing-page)
 
 ### Built with
 
