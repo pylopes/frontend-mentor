@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4D04E;
+    font-size: 62.5%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    border: 1px solid #000000;
+    box-shadow: 0.5rem 0.5rem 0 #000000;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-info a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-info a:hover {
+   color: #F4D04E;
+}
+
+#info-tag {
+    background-color: #F4D04E;
+    color: #111111;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+#info-date {
+    font-size: 14px;
+    color: #111111;
+    margin-bottom: 1rem;
+}
+
+#info-desc {
+    color: #6b6b6b;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-author img {
+    width: 2rem;
+}
+
+.card-author p {
+    color: #111111;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 476px) {
+    .container {
+        max-width: 320px;
+    }
+}
