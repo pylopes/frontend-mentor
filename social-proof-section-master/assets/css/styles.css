@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --league-spartan: "League Spartan", sans-serif;
+    --purple: #512051;
+    --light-purple: #927B91;
+    --yellow: #EF9546;
+    --white: #F7F2F7;
+    --white-full: #FFFFFF;
+    --pink: #EE69A4;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 30px;
+    font-family: var(--league-spartan);
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title > h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--purple);
+    text-align: center;
+    margin-bottom: 17px;
+    line-height: 3.2rem;
+    letter-spacing: -1.43px;
+}
+
+.title > p {
+    font-size: 1.9rem;
+    font-weight: medium;
+    color: var(--light-purple);
+    text-align: center;
+    line-height: 2.5rem;
+    letter-spacing: -0.63px;
+}
+
+.ratings {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rating-card {
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.rating-card > p {
+    margin-top: 15px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.user-review {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}   
+.review-card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: var(--purple);
+    border-radius: 8px;
+    padding: 35px 30px;
+}
+
+.review-card-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-card-title > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-name > h2 {
+    font-size: 1.7rem;
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.user-name > p {
+    font-size: 1.7rem;
+    color: var(--pink);
+    font-weight: 400;
+}
+
+.review-card-content {
+    font-size: 1.7rem;
+    font-weight: medium;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: var(--white);
+}
+
+@media (width >= 1360px) {
+    body {
+        background-image: url(../images/bg-pattern-bottom-desktop.svg);
+        background-position: center bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        background-image: url(../images/bg-pattern-top-mobile.svg);
+        background-position: left top;
+    }
+    
+    .container {
+        max-width: 1100px;
+        flex-direction: row;
+        align-items: center;
+        gap: 125px;
+    }
+
+    .title {
+        flex: 1;
+    }
+
+    .ratings {
+        flex:1;
+        width: 540px;
+    }
+
+    .title {
+        max-width: 445px;
+    }
+
+    .title > h1 {
+        font-size: 5.6rem;
+        line-height: 4.8rem;
+        letter-spacing: -2px;
+        text-align: left;
+    }
+
+    .title > p {
+        text-align: left;
+    }
+
+    .rating-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 445px;
+    }
+
+    .rating-card > p {
+        margin-top: 0px !important
+    }
+
+    .card-2 {
+        position: relative;
+        left: 42.5px;
+    }
+
+    .card-3 {
+        position: relative;
+        left: 85px;
+    }
+
+    .user-review {
+        max-width: 1100px;
+        flex-direction: row;
+    }
+
+    .review-card-2 {
+        position: relative;
+        top: 20px;
+    }
+
+    .review-card-3 {
+        position: relative;
+        top: 40px;
+    }
+}
