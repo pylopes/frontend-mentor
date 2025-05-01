@@ -10,7 +10,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [Recipe Page](https://pylopes.github.io/recipe-page.github.io/)
+- Live Site URL: [Recipe Page](https://pylopes.github.io/frontend-mentor/recipe-page)
 
 ### Built with
 
