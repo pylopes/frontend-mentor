@@ -10,7 +10,7 @@ This is a solution to the [Design preview for the Blog preview card coding chall
 
 ### Links
 
-- Live Site URL: [Blog preview card]()
+- Live Site URL: [Blog preview card](https://pylopes.github.io/frontend-mentor/blog-preview-card)
 
 ### Built with
 
