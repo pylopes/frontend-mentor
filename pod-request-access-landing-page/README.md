@@ -10,7 +10,7 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 
 ### Links
 
-- Live Site URL: [Pod request access](https://pylopes.github.io/pod-request-access-landing-page/)
+- Live Site URL: [Pod request access](https://pylopes.github.io/frontend-mentor/pod-request-access-landing-page)
 
 ### Built with
 
