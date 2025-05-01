@@ -11,7 +11,7 @@ TThis is a solution to the [Social proof section challenge on Frontend Mentor](h
 
 ### Links
 
-- Live Site URL: [Social proof section](https://pylopes.github.io/social-proof-section-master/)
+- Live Site URL: [Social proof section](https://pylopes.github.io/frontend-mentor/social-proof-section-master)
 
 ### Built with
 
